@@ -7,10 +7,11 @@
 //
 
 #import "AppDelegate.h"
-
+#import "Defines.h"
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    BASE_LOG(self.class, _cmd);
     return YES;
 }
 
