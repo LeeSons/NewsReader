@@ -10,9 +10,10 @@
 		C23D5FCC1C0725740065E076 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C23D5FCB1C0725740065E076 /* main.m */; };
 		C23D5FCF1C0725740065E076 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C23D5FCE1C0725740065E076 /* AppDelegate.m */; };
 		C23D5FD21C0725740065E076 /* HomePage.m in Sources */ = {isa = PBXBuildFile; fileRef = C23D5FD11C0725740065E076 /* HomePage.m */; };
-		C23D5FD51C0725740065E076 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C23D5FD31C0725740065E076 /* Main.storyboard */; };
 		C23D5FD71C0725740065E076 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C23D5FD61C0725740065E076 /* Assets.xcassets */; };
-		C23D5FDA1C0725740065E076 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C23D5FD81C0725740065E076 /* LaunchScreen.storyboard */; };
+		C23D5FFC1C0736000065E076 /* CPBasePage.m in Sources */ = {isa = PBXBuildFile; fileRef = C23D5FFB1C0736000065E076 /* CPBasePage.m */; };
+		C23D5FFF1C0737270065E076 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C23D5FFD1C0737270065E076 /* LaunchScreen.storyboard */; };
+		C23D60001C0737270065E076 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C23D5FFE1C0737270065E076 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,13 +23,16 @@
 		C23D5FCE1C0725740065E076 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C23D5FD01C0725740065E076 /* HomePage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomePage.h; sourceTree = "<group>"; };
 		C23D5FD11C0725740065E076 /* HomePage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomePage.m; sourceTree = "<group>"; };
-		C23D5FD41C0725740065E076 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C23D5FD61C0725740065E076 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C23D5FD91C0725740065E076 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C23D5FDB1C0725740065E076 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C23D5FE11C0726210065E076 /* Readme */ = {isa = PBXFileReference; lastKnownFileType = text; path = Readme; sourceTree = "<group>"; };
 		C23D5FE91C0727E60065E076 /* Defines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Defines.h; sourceTree = "<group>"; };
 		C23D5FF21C072DEB0065E076 /* URLDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = URLDefines.h; sourceTree = "<group>"; };
+		C23D5FF91C0732750065E076 /* NewsReader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewsReader.pch; sourceTree = "<group>"; };
+		C23D5FFA1C0736000065E076 /* CPBasePage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPBasePage.h; sourceTree = "<group>"; };
+		C23D5FFB1C0736000065E076 /* CPBasePage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPBasePage.m; sourceTree = "<group>"; };
+		C23D5FFD1C0737270065E076 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C23D5FFE1C0737270065E076 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,7 @@
 			children = (
 				C23D5FDB1C0725740065E076 /* Info.plist */,
 				C23D5FCB1C0725740065E076 /* main.m */,
+				C23D5FF91C0732750065E076 /* NewsReader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -91,7 +96,7 @@
 			isa = PBXGroup;
 			children = (
 			);
-			name = Global;
+			path = Global;
 			sourceTree = "<group>";
 		};
 		C23D5FE31C07270B0065E076 /* Controller */ = {
@@ -101,42 +106,42 @@
 				C23D5FEC1C0728400065E076 /* Widget */,
 				C23D5FED1C0728630065E076 /* Cell */,
 			);
-			name = Controller;
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		C23D5FE41C0727120065E076 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = Model;
+			path = Model;
 			sourceTree = "<group>";
 		};
 		C23D5FE51C0727170065E076 /* Network */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = Network;
+			path = Network;
 			sourceTree = "<group>";
 		};
 		C23D5FE61C0727200065E076 /* DB */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = DB;
+			path = DB;
 			sourceTree = "<group>";
 		};
 		C23D5FE71C0727730065E076 /* Unility */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = Unility;
+			path = Unility;
 			sourceTree = "<group>";
 		};
 		C23D5FE81C0727970065E076 /* ThirdSDK */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = ThirdSDK;
+			path = ThirdSDK;
 			sourceTree = "<group>";
 		};
 		C23D5FEA1C07280C0065E076 /* Resources */ = {
@@ -146,37 +151,39 @@
 				C23D5FEF1C0728990065E076 /* Image */,
 				C23D5FF01C0728AF0065E076 /* Xib */,
 			);
-			name = Resources;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		C23D5FEB1C0728330065E076 /* Page */ = {
 			isa = PBXGroup;
 			children = (
+				C23D5FFA1C0736000065E076 /* CPBasePage.h */,
+				C23D5FFB1C0736000065E076 /* CPBasePage.m */,
 				C23D5FD01C0725740065E076 /* HomePage.h */,
 				C23D5FD11C0725740065E076 /* HomePage.m */,
 			);
-			name = Page;
+			path = Page;
 			sourceTree = "<group>";
 		};
 		C23D5FEC1C0728400065E076 /* Widget */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = Widget;
+			path = Widget;
 			sourceTree = "<group>";
 		};
 		C23D5FED1C0728630065E076 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = Cell;
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		C23D5FEE1C07288B0065E076 /* Config */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = Config;
+			path = Config;
 			sourceTree = "<group>";
 		};
 		C23D5FEF1C0728990065E076 /* Image */ = {
@@ -184,16 +191,16 @@
 			children = (
 				C23D5FD61C0725740065E076 /* Assets.xcassets */,
 			);
-			name = Image;
+			path = Image;
 			sourceTree = "<group>";
 		};
 		C23D5FF01C0728AF0065E076 /* Xib */ = {
 			isa = PBXGroup;
 			children = (
-				C23D5FD31C0725740065E076 /* Main.storyboard */,
-				C23D5FD81C0725740065E076 /* LaunchScreen.storyboard */,
+				C23D5FFD1C0737270065E076 /* LaunchScreen.storyboard */,
+				C23D5FFE1C0737270065E076 /* Main.storyboard */,
 			);
-			name = Xib;
+			path = Xib;
 			sourceTree = "<group>";
 		};
 		C23D5FF11C072C120065E076 /* Defines */ = {
@@ -202,7 +209,7 @@
 				C23D5FE91C0727E60065E076 /* Defines.h */,
 				C23D5FF21C072DEB0065E076 /* URLDefines.h */,
 			);
-			name = Defines;
+			path = Defines;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,9 +270,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C23D5FDA1C0725740065E076 /* LaunchScreen.storyboard in Resources */,
+				C23D60001C0737270065E076 /* Main.storyboard in Resources */,
 				C23D5FD71C0725740065E076 /* Assets.xcassets in Resources */,
-				C23D5FD51C0725740065E076 /* Main.storyboard in Resources */,
+				C23D5FFF1C0737270065E076 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,30 +285,12 @@
 			files = (
 				C23D5FD21C0725740065E076 /* HomePage.m in Sources */,
 				C23D5FCF1C0725740065E076 /* AppDelegate.m in Sources */,
+				C23D5FFC1C0736000065E076 /* CPBasePage.m in Sources */,
 				C23D5FCC1C0725740065E076 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		C23D5FD31C0725740065E076 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C23D5FD41C0725740065E076 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		C23D5FD81C0725740065E076 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C23D5FD91C0725740065E076 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		C23D5FDC1C0725750065E076 /* Debug */ = {
@@ -388,6 +377,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = NewsReader/NewsReader.pch;
 				INFOPLIST_FILE = NewsReader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = liudan.com.NewsReader;
@@ -399,6 +389,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = NewsReader/NewsReader.pch;
 				INFOPLIST_FILE = NewsReader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = liudan.com.NewsReader;
@@ -447,6 +438,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = NewsReader/NewsReader.pch;
 				INFOPLIST_FILE = NewsReader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = liudan.com.NewsReader;
@@ -495,6 +487,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = NewsReader/NewsReader.pch;
 				INFOPLIST_FILE = NewsReader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = liudan.com.NewsReader;
@@ -543,6 +536,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = NewsReader/NewsReader.pch;
 				INFOPLIST_FILE = NewsReader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = liudan.com.NewsReader;

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CPBasePage.h
 //  NewsReader
 //
 //  Created by lanou3g on 15/11/26.
@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HomePage : UIViewController
+@interface CPBasePage : UIViewController
 
 @end
-
