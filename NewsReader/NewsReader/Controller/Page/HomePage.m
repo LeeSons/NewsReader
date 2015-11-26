@@ -12,6 +12,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self testDeviceSize];
+}
+
+- (void)testDeviceSize{
+    if (IsiPhone6) {
+        LCPLog(@"66666");
+    }else if(IsiPhone5){
+        LCPLog(@"55555");
+    }
 }
 
 - (void)didReceiveMemoryWarning {
